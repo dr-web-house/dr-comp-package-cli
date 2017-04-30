@@ -3,6 +3,8 @@ The drcp command line interface.
 
 This tool helps you to manange your workspace environment.
 
+Please refer to [https://github.com/dr-web-house/web-fun-house](https://github.com/dr-web-house/web-fun-house)
+
 1. ### Start your development by installing this command line interface and drcp module.
 
 	```
@@ -18,8 +20,9 @@ This tool helps you to manange your workspace environment.
 	```
 	drcp init
 	```
-3. ### Link project repo folders to current workspace
+	or
+	### Link project repo folders to current workspace
 	
 	```
-	drcp add <project-directory> [<project-directory> ...]
+	drcp project -a <project-directory> [ -a <project-directory> ...]
 	```
